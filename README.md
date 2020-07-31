@@ -11,7 +11,9 @@ Calibre content server for docker
   NOTE: There must be at least one epub or mobi in this directory before starting the container for the first time. They can be removed after the server starts up and adds them to the library.
 
 ### 2) Copy these files into a temp directory to build from Dockerfile
-  `git clone https://github.com/lukken/calibre.git`
+  ```
+  git clone https://github.com/lukken/calibre.git
+  ```
 
 ### 3) Build from dockerfile
   ```
