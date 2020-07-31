@@ -14,7 +14,10 @@ Calibre content server for docker
   `git clone https://github.com/lukken/calibre.git`
 
 ### 3) Build from dockerfile
-  `docker build --tag lukken/calibre .`
+  ```
+  cd calibre
+  docker build --tag lukken/calibre .
+  ```
 
 ### 4) Deploy container
   ```
